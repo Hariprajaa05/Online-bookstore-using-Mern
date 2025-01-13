@@ -28,6 +28,13 @@ import bfg from "./assets/images/bfg.jpg";
 import night from "./assets/images/night.jpg";
 import key from "./assets/images/key.jpg";
 import midnight from "./assets/images/midnight.jpg";
+import newbook1 from "./assets/images/newbook1.jpg";
+import newbook7 from "./assets/images/newbook7.jpg";
+import newbook4 from "./assets/images/newbook4.jpg";
+import newbook8 from "./assets/images/newbook8.jpg";
+import newbook9 from "./assets/images/newbook9.jpg";
+import newbook5 from "./assets/images/newbook5.jpg";
+import newbook3 from "./assets/images/newbook3.jpg";
 
 function Frontpage() {
   const navigate = useNavigate();
@@ -71,25 +78,123 @@ function Frontpage() {
     setBooks(updatedBooks);
   };
   const booksRow1 = [
-    { id: 1, src: top_sl1, title: "Atomic Habit", description: "Atomic Habits by James Clear is a comprehensive, practical guide on how to change your habits and get 1% better every day. Using a framework called the Four Laws of Behavior Change, Atomic Habits teaches readers a simple set of rules for creating good habits and breaking bad ones. Read the full summary to glean 3 key lessons from Atomic Habits, learn how to build a habit in 4 simple steps, and get a handy reference guide for the strategies recommended throughout the book." },
-    { id: 2, src: top_sl4, title: "Genre 2", description: "Description for Genre 2" },
-    { id: 3, src: top_sl3, title: "Genre 3", description: "Description for Genre 3" },
-    { id: 4, src: hobbies, title: "Genre 4", description: "Description for Genre 4" },
-    { id: 5, src: hobbies, title: "Genre 4", description: "Description for Genre 4" },
-    { id: 6, src: hobbies, title: "Genre 4", description: "Description for Genre 4" },
-    { id: 7, src: hobbies, title: "Genre 4", description: "Description for Genre 4" },
-    { id: 8, src: hobbies, title: "Genre 4", description: "Description for Genre 4" },
+    {
+      id: 1,
+      src: top_sl1,
+      title: "Atomic Habit",
+      description:
+        "Atomic Habits by James Clear is a practical guide on habit formation and breaking bad habits. It uses the Four Laws of Behavior Change framework to create positive change. The book emphasizes how small improvements can lead to significant transformations over time. It provides actionable strategies for long-term success. Ideal for anyone looking to improve their life one habit at a time.",
+    },
+    {
+      id: 2,
+      src: top_sl4,
+      title: "Do It Today",
+      description:
+        "Do It Today by Darius Foroux focuses on overcoming procrastination and taking action immediately. It provides insights on how to build discipline, eliminate distractions, and achieve your goals. The book is filled with practical advice on time management and productivity. It emphasizes the importance of mindset in achieving personal success. Perfect for those struggling with delays and unproductive habits.",
+    },
+    {
+      id: 3,
+      src: top_sl3,
+      title: "You Only Live Once",
+      description:
+        "This book inspires readers to embrace life and live it to the fullest. It encourages stepping out of comfort zones, taking risks, and cherishing each moment. Packed with motivational stories, it shows how to make every day count. The book highlights the importance of following passions and creating unforgettable experiences. It's a guide to leading a fulfilling and adventurous life.",
+    },
+    {
+      id: 4,
+      src: bfg,
+      title: "BFG",
+      description:
+        "The BFG by Roald Dahl is a whimsical tale of friendship between a young girl and a Big Friendly Giant. The story explores their adventures in a magical world filled with giants and dreams. It showcases themes of bravery, kindness, and imagination. A timeless classic loved by children and adults alike. Perfect for those who enjoy enchanting and heartwarming stories.",
+    },
+    {
+      id: 5,
+      src: night,
+      title: "NightBooks",
+      description:
+        "NightBooks by J.A. White is a thrilling story about a boy trapped by a wicked witch. To survive, he must tell scary stories each night. The book blends suspense, adventure, and fantasy in a gripping narrative. It explores themes of courage, creativity, and self-discovery. A perfect read for fans of spooky and imaginative tales.",
+    },
+    {
+      id: 6,
+      src: key,
+      title: "The Secret Key",
+      description:
+        "The Secret Key is an intriguing mystery that follows a young protagonist uncovering hidden truths. The story is packed with suspense, puzzles, and unexpected twists. It highlights the power of curiosity and determination. Readers are taken on a thrilling journey filled with danger and discovery. Ideal for fans of adventure and mystery genres.",
+    },
+    {
+      id: 7,
+      src: flew,
+      title: "The Boy Who Flew",
+      description:
+        "The Boy Who Flew is an inspiring tale of a young boy who dreams of defying gravity. Set in a fantastical world, the book explores themes of ambition, perseverance, and friendship. It captures the magic of following one's dreams against all odds. A heartwarming and uplifting story for readers of all ages. Perfect for those who love imaginative and empowering tales.",
+    },
+    {
+      id: 8,
+      src: hobbies,
+      title: "Hobbies That Make You Smarter According To Science",
+      description:
+        "This book explores hobbies that boost intelligence and creativity. Backed by scientific studies, it highlights activities that improve brain function, memory, and problem-solving skills. It provides practical tips for incorporating these hobbies into daily life. Perfect for those looking to enhance their mental abilities and personal growth. A fascinating read for curious minds.",
+    },
   ];
 
   const booksRow2 = [
-    { id: 9, src: night, title: "Genre 5", description: "Description for Genre 5" },
-    { id: 10, src: key, title: "Genre 6", description: "Description for Genre 6" },
-    { id: 11, src: midnight, title: "Genre 7", description: "Description for Genre 7" },
-    { id: 12, src: flew, title: "Genre 8", description: "Description for Genre 8" },
-    { id: 13, src: flew, title: "Genre 8", description: "Description for Genre 8" },
-    { id: 14, src: flew, title: "Genre 8", description: "Description for Genre 8" },
-    { id: 15, src: flew, title: "Genre 8", description: "Description for Genre 8" },
+    {
+      id: 9,
+      src: newbook7,
+      title: "It Starts With Us",
+      description:
+        "This sequel to 'It Ends With Us' delves deeper into relationships, self-love, and healing. It focuses on family dynamics, resilience, and second chances. Written with emotional depth, it explores themes of forgiveness and personal growth. Perfect for fans of heartfelt and inspiring stories. A touching tale about overcoming the past and embracing the future.",
+    },
+    {
+      id: 10,
+      src: newbook1,
+      title: "The 10 Riddles Of The Earth",
+      description:
+        "A captivating exploration of Earth's greatest mysteries. The book covers unsolved phenomena, scientific wonders, and natural marvels. It's a journey through history, science, and imagination. Readers will be fascinated by the world's hidden secrets. Perfect for those curious about the unknown and eager to learn.",
+    },
+    {
+      id: 11,
+      src: midnight,
+      title: "The Midnight Library",
+      description:
+        "The Midnight Library by Matt Haig is a thought-provoking tale about life's choices and regrets. It follows a woman who discovers a library with books containing alternate lives she could have lived. The story emphasizes self-acceptance, second chances, and the beauty of imperfection. A deeply moving and philosophical read for introspective minds.",
+    },
+    {
+      id: 12,
+      src: newbook4,
+      title: "Secret Study Guide",
+      description:
+        "A comprehensive guide designed to make learning effective and enjoyable. It offers tips on study techniques, time management, and retaining information. Packed with insights, it's perfect for students and lifelong learners. The book simplifies complex concepts into actionable steps. An essential tool for academic success.",
+    },
+    {
+      id: 13,
+      src: newbook8,
+      title: "Quantitative Aptitude",
+      description:
+        "An essential resource for mastering quantitative aptitude. It covers topics ranging from basic arithmetic to advanced problem-solving. Perfect for competitive exams, the book includes practice questions and solutions. Written in a clear and concise manner, it's ideal for beginners and experts alike. A must-have for aspiring professionals.",
+    },
+    {
+      id: 14,
+      src: newbook9,
+      title: "Beauty And The Beast",
+      description:
+        "This timeless fairy tale explores themes of love, inner beauty, and redemption. The story of Belle and the Beast captures hearts with its magic and moral lessons. A blend of romance and fantasy, it's cherished by readers of all ages. A classic tale that continues to inspire and enchant. Perfect for fans of fairy tales and happy endings.",
+    },
+    {
+      id: 15,
+      src: newbook5,
+      title: "ASAP Govt & Politics",
+      description:
+        "A concise guide to understanding government and politics. It simplifies complex concepts, making them accessible to readers. Covers key topics, historical events, and political theories. Perfect for students and enthusiasts alike. An informative resource for developing a strong foundation in political science.",
+    },
+    {
+      id: 16,
+      src: newbook3,
+      title: "Again But Better",
+      description:
+        "A heartwarming story about second chances and personal transformation. It follows a young protagonist who rediscovers herself through adventure and love. The book explores themes of self-discovery, courage, and following one's dreams. Written with humor and charm, it's a relatable and uplifting read. Perfect for those seeking inspiration and a fresh start.",
+    },
   ];
+
   const renderBooksRow = (books) => (
     <div
       style={{
@@ -192,7 +297,6 @@ function Frontpage() {
             <h1>New &</h1>
             <h1>Trending</h1>
             <h5 style={{ color: "grey" }}>Explore new worlds from authors</h5>
-          
           </div>
 
           <img
@@ -317,30 +421,37 @@ function Frontpage() {
           <div className="shelf"></div>
         </div>
       </div>
-      
+
       <div
-      className="bookextra"
-      style={{
-        height: "100vh",
-        overflowY: "auto",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        padding: "20px",
-        gap: "20px",
-      }}
-    >
-      {/* Row 1 of books */}
-      {renderBooksRow(booksRow1)}
+        className="bookextra"
+        style={{
+          height: "100vh",
+          overflowY: "auto",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          padding: "20px",
+          gap: "20px",
+        }}
+      >
+        {/* Row 1 of books */}
+        {renderBooksRow(booksRow1)}
 
-      {/* "More For You" Text */}
-      <div className="geners" style={{ marginTop: "18px", color: "rgb(109, 36, 4)", fontSize: "20px" }}>
-        <h1 style={{ textAlign: "center" }}>~More for you~</h1>
+        {/* "More For You" Text */}
+        <div
+          className="geners"
+          style={{
+            marginTop: "18px",
+            color: "rgb(109, 36, 4)",
+            fontSize: "20px",
+          }}
+        >
+          <h1 style={{ textAlign: "center" }}>~Trending~</h1>
+        </div>
+
+        {/* Row 2 of books */}
+        {renderBooksRow(booksRow2)}
       </div>
-
-      {/* Row 2 of books */}
-      {renderBooksRow(booksRow2)}
-    </div>
     </>
   );
 }
