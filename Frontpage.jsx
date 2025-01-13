@@ -81,9 +81,9 @@ function Frontpage() {
     {
       id: 1,
       src: top_sl1,
-      title: "Atomic Habit",
+      title: "It Ends With Us",
       description:
-        "Atomic Habits by James Clear is a practical guide on habit formation and breaking bad habits. It uses the Four Laws of Behavior Change framework to create positive change. The book emphasizes how small improvements can lead to significant transformations over time. It provides actionable strategies for long-term success. Ideal for anyone looking to improve their life one habit at a time.",
+        "It Ends with Us” follows our protagonist Lily who meets Ryle one night on a rooftop. After a few encounters, they begin to get to know one another and fall in love. They had a picture-perfect relationship, but things take a turn when Ryle becomes abusive.It sheds light on the complexities of abusive relationships and the courage it takes to break free from them. Through Lily's journey, we are reminded of the importance of self-love, forgiveness, and the ability to create our own happy endings, even in the face of adversity.",
     },
     {
       id: 2,
