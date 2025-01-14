@@ -16,4 +16,7 @@
   Tables for displaying book details.
   Intuitive headings and well-structured rows for easy navigation.  
 
-5) in progress...
+5)Trending books with horizontal scrolling features
+
+6) In progress...
+
